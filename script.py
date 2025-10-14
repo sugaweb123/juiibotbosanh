@@ -16,7 +16,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 from telegram.request import HTTPXRequest  # ✅ Added for timeout control
 
 
-BOT_TOKEN = "8121077412:AAHvT2Bz1PXPIV6l9vurENvwZCzR-39wLsk"
+BOT_TOKEN = "7089691671:AAHjadzQycTnvykfdUA82JmT0Nh1yrgR4nU"
 ALLOWED_USER_ID = 6878991479
 DOWNLOAD_DIR = os.path.join(os.path.expanduser("~"), "Downloads")
 
@@ -282,3 +282,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
