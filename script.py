@@ -278,8 +278,10 @@ def main():
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CallbackQueryHandler(button_handler))
     app.run_polling()
-
+    app.run(host='0.0.0.0', port=5000)
 
 if __name__ == "__main__":
-    main()
+     main()
+
+
 
